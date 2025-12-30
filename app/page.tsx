@@ -16,9 +16,9 @@ export default function Home() {
       {!loading && (
 
         <main>
+          <Navbar/>
           <Snowfall   color='#BAB499' />
           <SplashCursor />
-          <Navbar/>
           <HeroSection />
           <FeaturesSection />
           <Projects />
