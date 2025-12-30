@@ -15,7 +15,7 @@ const FOOTER_LINKS = [
     links: [
       { label: "Chat", href: "/chat" },
       { label: "VOID Hub", href: "/hub" },
-      { label: "Pricing", href: "/pricing" },
+      { label: "Pricing", href: "/" },
     ],
   },
   {
