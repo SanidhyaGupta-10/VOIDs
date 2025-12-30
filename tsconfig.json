@@ -28,6 +28,6 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts"
-, "lib/mongodb.js", "app/layout.jsx"  ],
+, "lib/mongodb.js", "app/layout.jsx", "app/api/image/route.ts"  ],
   "exclude": ["node_modules"]
 }
