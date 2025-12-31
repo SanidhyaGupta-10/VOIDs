@@ -1,4 +1,5 @@
 import "./globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import LenisProvider from "@/providers/LenisProvider";
 import SessionWrapper from "@/providers/SessionWrapper";
 
@@ -16,7 +17,7 @@ export default function RootLayout({ children }) {
           <LenisProvider>
 
             {children}
-
+            <SpeedInsights />
           </LenisProvider>
         </SessionWrapper>
       </body>
