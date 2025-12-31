@@ -80,7 +80,7 @@ export default function HeroSection() {
           </Link>
 
           <Link
-            href="/pricing"
+            href="/hub"
             className="px-6 py-3 border border-neutral-700 text-neutral-300 hover:border-indigo-500 hover:text-indigo-400 rounded-md font-semibold transition"
           >
             Learn More
